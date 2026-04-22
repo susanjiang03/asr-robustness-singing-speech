@@ -1,0 +1,84 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# ---------------------------
+# Jupyter
+# ---------------------------
+.ipynb_checkpoints/
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# Data (IMPORTANT)
+# ---------------------------
+data/clips/
+data/raw/
+data/augmented/
+
+# Keep small sample data
+!data/sample/
+
+# ---------------------------
+# Models / checkpoints
+# ---------------------------
+outputs/
+checkpoints/
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# ---------------------------
+# HuggingFace cache
+# ---------------------------
+.cache/
+hf_cache/
+~/.cache/huggingface/
+
+# ---------------------------
+# Audio / large files
+# ---------------------------
+*.wav
+*.mp3
+*.flac
+
+# Allow small demo files
+!data/sample/*.wav
+
+# ---------------------------
+# Results
+# ---------------------------
+results/predictions/
+results/temp/
+
+# ---------------------------
+# IDE
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Misc
+# ---------------------------
+*.zip
+*.tar.gz
+*.bak
+*.tmp
