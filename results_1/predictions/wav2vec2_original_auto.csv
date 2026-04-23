@@ -1,0 +1,8 @@
+audio,reference,hypothesis,substitution,insertion,deletion
+data/clips/test_fixed/opera_001.wav,海岛冰轮初转腾,夫,1,0,6
+data/clips/test_fixed/opera_002.wav,众将士听我把令行,菲邦中于,4,0,4
+data/clips/test_fixed/opera_003.wav,我本是卧龙岗散淡的人,巴丹扎哥哥哥,6,0,4
+data/clips/test_fixed/opera_004.wav,孤与项羽征战十数余载屡屡不能得胜今番出兵元帅计将安出,于域村长时属鱼塞路伊龙不腾特省近法值彬尤安社弃耶斯,24,0,1
+data/clips/test_fixed/opera_005.wav,臣启主公那项羽自恃甚勇如今势孤力弱坚守不战四处求援倘若援兵到此我军恐难取胜,提志工纳西洋约自史提<unk>日今是购立一路进成不大富安纯学业无有案堂鲁领道慈沃军头拿取省,32,8,0
+data/clips/test_fixed/opera_006.wav,依臣之见需派一能言善辩之人诈降项羽诱其出战臣在九里山摆下十面大阵他若前来项羽可灭也,亦C陈之界续帕异呢饮厦便致人炸响相约亦无其C赤站乘仔酒林撒达一下施面大镇他罗来西驼蜜异,31,4,2
+data/clips/test_fixed/opera_007.wav,大英雄盖世无敌灭赢秦废楚帝,总大区中头,5,0,8

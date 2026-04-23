@@ -1,0 +1,58 @@
+[
+  {
+    "model": "whisper",
+    "input_csv": "data/test_0.csv",
+    "rows": 7,
+    "total_reference_characters": 142,
+    "cer": 0.6971830985915493,
+    "substitution": 82,
+    "insertion": 6,
+    "deletion": 11,
+    "substitution_rate": 0.5774647887323944,
+    "insertion_rate": 0.04225352112676056,
+    "deletion_rate": 0.07746478873239436,
+    "condition": "original"
+  },
+  {
+    "model": "whisper",
+    "input_csv": "data/test_shortened_0.csv",
+    "rows": 7,
+    "total_reference_characters": 142,
+    "cer": 0.7746478873239436,
+    "substitution": 91,
+    "insertion": 9,
+    "deletion": 10,
+    "substitution_rate": 0.6408450704225352,
+    "insertion_rate": 0.06338028169014084,
+    "deletion_rate": 0.07042253521126761,
+    "condition": "shortened"
+  },
+  {
+    "model": "wav2vec2",
+    "input_csv": "data/test_0.csv",
+    "rows": 7,
+    "total_reference_characters": 142,
+    "cer": 0.9859154929577465,
+    "substitution": 103,
+    "insertion": 12,
+    "deletion": 25,
+    "substitution_rate": 0.7253521126760564,
+    "insertion_rate": 0.08450704225352113,
+    "deletion_rate": 0.176056338028169,
+    "condition": "original"
+  },
+  {
+    "model": "wav2vec2",
+    "input_csv": "data/test_shortened_0.csv",
+    "rows": 7,
+    "total_reference_characters": 142,
+    "cer": 1.1126760563380282,
+    "substitution": 104,
+    "insertion": 29,
+    "deletion": 25,
+    "substitution_rate": 0.7323943661971831,
+    "insertion_rate": 0.20422535211267606,
+    "deletion_rate": 0.176056338028169,
+    "condition": "shortened"
+  }
+]

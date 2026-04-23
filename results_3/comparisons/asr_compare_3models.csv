@@ -1,0 +1,7 @@
+model,condition,input_csv,rows,total_reference_characters,cer,substitution,insertion,deletion,substitution_rate,insertion_rate,deletion_rate
+whisper,original,data/test.csv,19,435,0.7379,259,12,50,0.5954,0.0276,0.1149
+whisper,shortened,data/test_shortened.csv,19,435,0.8253,266,23,70,0.6115,0.0529,0.1609
+wav2vec2,original,data/test.csv,19,435,1.0000,203,25,207,0.4667,0.0575,0.4759
+wav2vec2,shortened,data/test_shortened.csv,19,435,1.0736,221,53,193,0.5080,0.1218,0.4437
+vosk,original,data/test.csv,19,435,0.9770,119,1,305,0.2736,0.0023,0.7011
+vosk,shortened,data/test_shortened.csv,19,435,0.9770,106,1,318,0.2437,0.0023,0.7310
