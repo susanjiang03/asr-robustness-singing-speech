@@ -42,8 +42,8 @@ def load_audio(path: str, target_sr: int = TARGET_SR) -> np.ndarray:
 def find_voiced_segments(y: np.ndarray, sr: int):
     f0, _, _ = librosa.pyin(
         y,
-        fmin=librosa.note_to_hz("C2"),
-        fmax=librosa.note_to_hz("C7"),
+        fmin=80,
+        fmax=1500,
         sr=sr,
         frame_length=FRAME_LENGTH,
         hop_length=HOP_LENGTH,
